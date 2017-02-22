@@ -48,6 +48,7 @@
 		982282E01E5D3CD800BFDBFB /* FYYMeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 982282DF1E5D3CD800BFDBFB /* FYYMeHeadView.m */; };
 		982282E21E5D3CE700BFDBFB /* FYYMeHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982282E11E5D3CE700BFDBFB /* FYYMeHeadView.xib */; };
 		982283611E5D5D5500BFDBFB /* FYYSettingModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 982283601E5D5D5500BFDBFB /* FYYSettingModal.m */; };
+		982283631E5D7F5600BFDBFB /* 直播视频.gif in Resources */ = {isa = PBXBuildFile; fileRef = 982283621E5D7F5600BFDBFB /* 直播视频.gif */; };
 		98482D951E57D7D90091F647 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 98482D941E57D7D90091F647 /* HttpTool.m */; };
 		98482D981E57D7E60091F647 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 98482D971E57D7E60091F647 /* UIImageView+SDWebImage.m */; };
 		98482D9E1E57D98C0091F647 /* FYYBaseHander.m in Sources */ = {isa = PBXBuildFile; fileRef = 98482D9D1E57D98C0091F647 /* FYYBaseHander.m */; };
@@ -172,6 +173,7 @@
 		982282E11E5D3CE700BFDBFB /* FYYMeHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYYMeHeadView.xib; sourceTree = "<group>"; };
 		9822835F1E5D5D5500BFDBFB /* FYYSettingModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYYSettingModal.h; sourceTree = "<group>"; };
 		982283601E5D5D5500BFDBFB /* FYYSettingModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYYSettingModal.m; sourceTree = "<group>"; };
+		982283621E5D7F5600BFDBFB /* 直播视频.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "直播视频.gif"; sourceTree = "<group>"; };
 		98482D931E57D7D90091F647 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
 		98482D941E57D7D90091F647 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
 		98482D961E57D7E60091F647 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
@@ -435,6 +437,7 @@
 			children = (
 				98882A451E55503100360753 /* Main.storyboard */,
 				98882A481E55503100360753 /* Assets.xcassets */,
+				982283621E5D7F5600BFDBFB /* 直播视频.gif */,
 				98882A4A1E55503100360753 /* LaunchScreen.storyboard */,
 				98882A4D1E55503100360753 /* Info.plist */,
 				98882A3D1E55503100360753 /* main.m */,
@@ -789,6 +792,7 @@
 				982282931E5C1A8C00BFDBFB /* close_preview@2x.png in Resources */,
 				987786A71E56AB4000500A8C /* FYYHotViewController.xib in Resources */,
 				982282D01E5D2DE700BFDBFB /* UMSCommentInputController.xib in Resources */,
+				982283631E5D7F5600BFDBFB /* 直播视频.gif in Resources */,
 				982282D51E5D2DE700BFDBFB /* UMSnsAccountViewController.xib in Resources */,
 				982282351E5B10B300BFDBFB /* FYYAdeversizeView.xib in Resources */,
 				987786AC1E56AB4F00500A8C /* FYYNearViewController.xib in Resources */,
