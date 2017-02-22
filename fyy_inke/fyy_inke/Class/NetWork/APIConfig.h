@@ -31,7 +31,7 @@
 #define API_NearLocation @"api/live/near_recommend"//?uid=85149891&latitude=40.090562&longitude=116.413353
 
 
-//欢歌直播
+//直播地址
 
 #define Live_FYY @"rtmp://live.hkstv.hk.lxdns.com:1935/live/yyfeng"
 
