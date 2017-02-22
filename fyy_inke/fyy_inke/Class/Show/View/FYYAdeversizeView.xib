@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FYYAdeversizeView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oVy-er-aHH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKZ-yt-HC9">
+                    <rect key="frame" x="300" y="40" width="55" height="21"/>
+                    <color key="backgroundColor" red="0.93698626756668091" green="0.91008704900741577" blue="0.72176128625869751" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="1Qo-Ry-G32"/>
+                        <constraint firstAttribute="width" constant="55" id="JMR-dT-yz1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oVy-er-aHH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="K4f-sQ-OGv"/>
+                <constraint firstAttribute="bottom" secondItem="oVy-er-aHH" secondAttribute="bottom" id="Piq-Ut-sId"/>
+                <constraint firstAttribute="trailing" secondItem="BKZ-yt-HC9" secondAttribute="trailing" constant="20" id="QCr-fl-DVK"/>
+                <constraint firstItem="BKZ-yt-HC9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="RqZ-HP-cgg"/>
+                <constraint firstAttribute="trailing" secondItem="oVy-er-aHH" secondAttribute="trailing" id="Tke-Qw-iBi"/>
+                <constraint firstItem="oVy-er-aHH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yya-yC-m1s"/>
+            </constraints>
+            <connections>
+                <outlet property="backView" destination="oVy-er-aHH" id="if5-lL-h7c"/>
+                <outlet property="timeLab" destination="BKZ-yt-HC9" id="kxT-eV-7KK"/>
+            </connections>
+        </view>
+    </objects>
+</document>

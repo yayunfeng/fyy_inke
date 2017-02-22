@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FYYLiveChatViewController">
+            <connections>
+                <outlet property="headIcon" destination="S9j-Vl-6tX" id="BhE-oh-XFl"/>
+                <outlet property="online" destination="H4K-nr-TnM" id="3dJ-UC-qw4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FOL-Kf-vWC">
+                    <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="335-Tt-ddA">
+                            <rect key="frame" x="10" y="10" width="40" height="40"/>
+                            <state key="normal" image="mg_room_btn_liao_h"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elP-ib-qDw">
+                            <rect key="frame" x="175" y="10" width="40" height="40"/>
+                            <state key="normal" image="mg_room_btn_xinxi_h"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sH-Af-VHZ">
+                            <rect key="frame" x="225" y="10" width="40" height="40"/>
+                            <state key="normal" image="mg_room_btn_liwu_h"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARh-DK-R7j">
+                            <rect key="frame" x="275" y="10" width="40" height="40"/>
+                            <state key="normal" image="mg_room_btn_fenxiang_h"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="335-Tt-ddA" secondAttribute="bottom" constant="10" id="25f-XF-pEL"/>
+                        <constraint firstAttribute="height" constant="60" id="2UY-jC-vBr"/>
+                        <constraint firstAttribute="bottom" secondItem="5sH-Af-VHZ" secondAttribute="bottom" constant="10" id="EWe-PS-h0A"/>
+                        <constraint firstItem="5sH-Af-VHZ" firstAttribute="leading" secondItem="elP-ib-qDw" secondAttribute="trailing" constant="10" id="H1F-2P-26p"/>
+                        <constraint firstAttribute="bottom" secondItem="elP-ib-qDw" secondAttribute="bottom" constant="10" id="SId-Tt-X1N"/>
+                        <constraint firstItem="ARh-DK-R7j" firstAttribute="leading" secondItem="5sH-Af-VHZ" secondAttribute="trailing" constant="10" id="Smh-iT-nTN"/>
+                        <constraint firstItem="335-Tt-ddA" firstAttribute="leading" secondItem="FOL-Kf-vWC" secondAttribute="leading" constant="10" id="hVx-QX-oBI"/>
+                        <constraint firstAttribute="trailing" secondItem="ARh-DK-R7j" secondAttribute="trailing" constant="60" id="heA-MQ-Emc"/>
+                        <constraint firstAttribute="bottom" secondItem="ARh-DK-R7j" secondAttribute="bottom" constant="10" id="nfk-SU-EtQ"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mg_room_touxiang" translatesAutoresizingMaskIntoConstraints="NO" id="CB3-Oo-jF4">
+                    <rect key="frame" x="10" y="30" width="87" height="32"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhibo_head_xiao" translatesAutoresizingMaskIntoConstraints="NO" id="S9j-Vl-6tX">
+                    <rect key="frame" x="10" y="32" width="30" height="30"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4K-nr-TnM">
+                    <rect key="frame" x="0.0" y="72" width="138" height="22"/>
+                    <state key="normal" title="映票：0" backgroundImage="mg_room_映票_底">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="FOL-Kf-vWC" secondAttribute="bottom" id="5uJ-6r-tTK"/>
+                <constraint firstItem="H4K-nr-TnM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FC2-KO-S5h"/>
+                <constraint firstItem="FOL-Kf-vWC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="b8m-Ef-awJ"/>
+                <constraint firstAttribute="trailing" secondItem="FOL-Kf-vWC" secondAttribute="trailing" id="efV-el-4XF"/>
+                <constraint firstItem="CB3-Oo-jF4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="fYG-jL-f0h"/>
+                <constraint firstItem="CB3-Oo-jF4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="mTL-Th-Iem"/>
+                <constraint firstItem="H4K-nr-TnM" firstAttribute="top" secondItem="CB3-Oo-jF4" secondAttribute="bottom" constant="10" id="mj0-df-C9q"/>
+                <constraint firstItem="S9j-Vl-6tX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="p41-f2-7Dh"/>
+                <constraint firstItem="S9j-Vl-6tX" firstAttribute="top" secondItem="CB3-Oo-jF4" secondAttribute="bottom" constant="-30" id="sv4-Ux-0pm"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mg_room_btn_fenxiang_h" width="40" height="40"/>
+        <image name="mg_room_btn_liao_h" width="40" height="40"/>
+        <image name="mg_room_btn_liwu_h" width="40" height="40"/>
+        <image name="mg_room_btn_xinxi_h" width="40" height="40"/>
+        <image name="mg_room_touxiang" width="87" height="32"/>
+        <image name="mg_room_映票_底" width="138" height="22"/>
+        <image name="zhibo_head_xiao" width="30" height="30"/>
+    </resources>
+</document>

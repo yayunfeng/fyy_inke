@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  fyy_inke
+//
+//  Created by 冯亚运 on 17/2/16.
+//  Copyright © 2017年 冯亚运. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "FYYMacros.h"
+#import "UIButton+WebCache.h"
+#import "UIImageView+WebCache.h"
+#import "UIImageView+SDWebImage.h"
+#import "FYYMacros.h"
+#import "YYKit.h"
+#import "Masonry.h"
+#import "APIConfig.h"
+#import "MJExtension.h"
+#import "UMSocial.h"
+#import "UMSocialSinaSSOHandler.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
